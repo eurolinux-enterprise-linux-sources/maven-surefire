@@ -1,6 +1,6 @@
 Name:           maven-surefire
 Version:        2.15
-Release:        2%{?dist}
+Release:        3%{?dist}
 Epoch:          0
 Summary:        Test framework project
 License:        ASL 2.0 and CPL
@@ -161,6 +161,9 @@ done
 %doc LICENSE NOTICE cpl-v10.html
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 02.15-3
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:2.15-2
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
